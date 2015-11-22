@@ -202,7 +202,7 @@ input {
 #h .logo {
 	top: 30px;
 	left: 45px;
-	font-size: 18px;
+	font-size: 30px;
 	font-weight: 900;
 	position:absolute; 
 }
@@ -227,13 +227,12 @@ input {
 	color: black;
 	font-size: 40px;
 }
-.overlay {
+#h .overlay{
     padding-top: 100px;
-    background-color: rgba(240,255,255,0.7); /*.75 opacity of the color so that background image is visible*/
+    background-color: rgba(240,255,255,.75); /*.75 opacity of the color so that background image is visible*/
     min-height: 600px;
     color: black;
 }
-
 /* Store Links */
 .store img {
 	margin-right: 10px;
