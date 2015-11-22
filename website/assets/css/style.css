@@ -182,6 +182,27 @@ input {
 	color: white
 }
 
+.btn-toggle {
+	background-color: white;
+}
+
+/*ratings*/
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 24px;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
 /* HEADER SECTION */
 #h {
 	background: url(../img/bathroom.jpeg) no-repeat center top;
