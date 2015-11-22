@@ -131,9 +131,8 @@ input {
 }
 
 .subscribe-input {
-	float: left;
 	width: 65%;
-	text-align: left;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 }
